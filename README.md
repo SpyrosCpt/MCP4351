@@ -27,7 +27,7 @@
 
 ## About
 
-This library can be used for interfacing and controlling the MCP4251 IC with the Arduino. The MCP4251 IC is a volatile, 8-bit (257 wiper steps) digital potentiometers with an SPI compatible interface. It is available with end-to-end resistor values of 5KΩ, 10KΩ, 50kΩ and 100KΩ. More information on the [product page](https://www.microchip.com/wwwproducts/en/MCP4351).Other MCP43xx family ICs can also be used, but full functionality of the library may not be guaranteed.
+This library can be used for interfacing and controlling the MCP4351 IC with the Arduino. The MCP4351 IC is a volatile, 8-bit (257 wiper steps) digital potentiometers with an SPI compatible interface. It is available with end-to-end resistor values of 5KΩ, 10KΩ, 50kΩ and 100KΩ. More information on the [product page](https://www.microchip.com/wwwproducts/en/MCP4351).Other MCP43xx family ICs can also be used, but full functionality of the library may not be guaranteed.
 
 
 ## Features
