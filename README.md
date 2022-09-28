@@ -52,25 +52,25 @@ Two examples are available in library. Following is the simple example of interf
 
 connection-diagram
 
-#include <MCP4351.h>
+        #include <MCP4351.h>
 
-#define chipSelectPin 53
-#define pot0ResistanceRmax 10000 // These resistance values may vary
-#define pot0ResistanceRmin 0
-#define pot1ResistanceRmax 10000
-#define pot1ResistanceRmin 0
-#define pot2ResistanceRmax 10000 // These resistance values may vary
-#define pot2ResistanceRmin 0
-#define pot3ResistanceRmax 10000
-#define pot3ResistanceRmin 0
+        #define chipSelectPin 53
+        #define pot0ResistanceRmax 10000 // These resistance values may vary
+        #define pot0ResistanceRmin 0
+        #define pot1ResistanceRmax 10000
+        #define pot1ResistanceRmin 0
+        #define pot2ResistanceRmax 10000 // These resistance values may vary
+        #define pot2ResistanceRmin 0
+        #define pot3ResistanceRmax 10000
+        #define pot3ResistanceRmin 0
 
-#define MAX_NUMBER_OF_POTS 4
-#define MAX_POT_POSITION   255
+        #define MAX_NUMBER_OF_POTS 4
+        #define MAX_POT_POSITION   255
 
-MCP4351 digitalPot(chipSelectPin, pot0ResistanceRmax, pot0ResistanceRmin, pot1ResistanceRmax, pot1ResistanceRmin, pot2ResistanceRmax, pot2ResistanceRmin, pot3ResistanceRmax, pot3ResistanceRmin);
+        MCP4351 digitalPot(chipSelectPin, pot0ResistanceRmax, pot0ResistanceRmin, pot1ResistanceRmax, pot1ResistanceRmin, pot2ResistanceRmax, pot2ResistanceRmin, pot3ResistanceRmax, pot3ResistanceRmin);
 
-uint16_t pot_pos;
-uint8_t pot_num = 0;
+        uint16_t pot_pos;
+        uint8_t pot_num = 0;
 
         void setup()
         {    
