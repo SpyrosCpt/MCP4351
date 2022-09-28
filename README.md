@@ -53,7 +53,7 @@ Additional
 
 **Usage**
 
-Two examples are available in library. Following is the simple example of interfacing a single MCP4351 with the Arduino. Only one potentiometer (pot0) is controlled and wiper is set to a position = 256.
+An example is available below. Following is the simple example of interfacing a single MCP4351 with the Arduino. All 4 potentiometers (pot0-pot3) are controlled and wipers are varied between 0 and 255.
 
 connection-diagram
 
