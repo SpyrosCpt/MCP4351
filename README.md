@@ -1,11 +1,7 @@
-<br />
 <p align="center">
   <h2 align="center">MCP4251</h2>
   <p align="center">
     Arduino library for MCP4251 Digital Potentiometer    
-  <br />
-    <a href="https://kulbhushanchand.github.io/MCP4251/"><strong>Explore the docs »</strong></a>
-    <br />
   </p>
 </p>
 
