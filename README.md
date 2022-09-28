@@ -72,28 +72,28 @@ MCP4351 digitalPot(chipSelectPin, pot0ResistanceRmax, pot0ResistanceRmin, pot1Re
 uint16_t pot_pos;
 uint8_t pot_num = 0;
 
-void setup()
-{    
-    Serial.begin(9600);
-    digitalPot.begin();
-    
-    for(pot_num = 0; pot_num < MAX_NUMBER_OF_POTS; pot_num++)
-    {
-        digitalPot.DigitalPotStartup(pot_num);
-    }
-}
+        void setup()
+        {    
+            Serial.begin(9600);
+            digitalPot.begin();
 
-void loop()
-{
-    for(pot_pos = 0; pot_pos < MAX_POT_POSITION; pot_pos++)
-    {
-        for(pot_num = 0; pot_num < MAX_NUMBER_OF_POTS; pot_num++)
+            for(pot_num = 0; pot_num < MAX_NUMBER_OF_POTS; pot_num++)
+            {
+                digitalPot.DigitalPotStartup(pot_num);
+            }
+        }
+
+        void loop()
         {
-            digitalPot.DigitalPotSetWiperPosition(pot_num, pot_pos);
-        }       
-        delay(50);
-    }
-}
+            for(pot_pos = 0; pot_pos < MAX_POT_POSITION; pot_pos++)
+            {
+                for(pot_num = 0; pot_num < MAX_NUMBER_OF_POTS; pot_num++)
+                {
+                    digitalPot.DigitalPotSetWiperPosition(pot_num, pot_pos);
+                }       
+                delay(50);
+            }
+        }
 
 **Documentation**
 The documentation is available at https://kulbhushanchand.github.io/MCP4251/
