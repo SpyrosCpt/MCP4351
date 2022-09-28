@@ -1,21 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/kulbhushanchand/MCP4251">
-    <img src="docs/assets/images/logo.svg" alt="Logo" width="150" height="75">
-  </a>
-  <h2 align="center">MCP4251</h2>
-  <p align="center">
-    Arduino library for MCP4251 Digital Potentiometer    
-  <br />
-    <a href="https://kulbhushanchand.github.io/MCP4251/"><strong>Explore the docs »</strong></a>
-    <br />
-  </p>
-</p>
-
----
-<br />
-
 ## Table of Contents
 
 - [About](#about)
@@ -50,7 +32,7 @@ This library can be used for interfacing and controlling the MCP4251 IC with the
 
 ### First method
 
-![library-manager](docs/assets/images/library-manager.jpg)
+![library-manager](assets/images/library-manager.jpg)
 
 1. In the Arduino IDE, navigate to Sketch > Include Library > Manage Libraries
 2. Then the Library Manager will open and you will find a list of libraries that are already installed or ready for installation.
@@ -112,7 +94,7 @@ This library can be used for interfacing and controlling the MCP4251 IC with the
 
 Two examples are available in library. Following is the simple example of interfacing a single MCP4251 with the Arduino. Only one potentiometer (pot0) is controlled and wiper is set to a position = `256`.
 
-![connection-diagram](docs/assets/images/connection-diagram.jpg)
+![connection-diagram](assets/images/connection-diagram.jpg)
 
 ```cpp
 #include <MCP4251.h>
