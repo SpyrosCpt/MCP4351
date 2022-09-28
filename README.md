@@ -2,21 +2,25 @@
 Arduino Library for MCP4351 Digital Potentiometer
 
 **About**
+
 This library can be used for interfacing and controlling the MCP4351 IC with the Arduino. The MCP4351 IC is a volatile, 8-bit (257 wiper steps) digital potentiometers with an SPI compatible interface. It is available with end-to-end resistor values of 5KΩ, 10KΩ, 50kΩ and 100KΩ. More information on the product page.Other MCP42xx family ICs can also be used, but full functionality of the library may not be guaranteed.
 
 **Features**
+
 All available controls as per MCP4351 datasheet.
 Additional functions like DigitalPotResistanceToPosition and DigitalPotPositionToResistance.
 Simple to use.
 Multiple MCP4351 ICs can be interfaced and controlled, subjected to the availability of I/O pins on Arduino board.
 
 **Installation**
+
 1. Navigate to the Releases page.
 2. Download the latest release.
 3. Extract the zip file
 4. In the Arduino IDE, navigate to Sketch > Include Library > Add .ZIP Library
 
 **Functions**
+
 Set wiper position
 - DigitalPotWiperIncrement
 - DigitalPotWiperDecrement
@@ -48,6 +52,7 @@ Additional
 - DigitalPotPositionToResistance
 
 **Usage**
+
 Two examples are available in library. Following is the simple example of interfacing a single MCP4351 with the Arduino. Only one potentiometer (pot0) is controlled and wiper is set to a position = 256.
 
 connection-diagram
@@ -96,9 +101,11 @@ connection-diagram
         }
 
 **Documentation**
+
 The documentation is available at https://kulbhushanchand.github.io/MCP4251/
 
 **Contributing**
+
 Any contributions you make are greatly appreciated. You can contribute to this project in the following ways :
 
 - Add new functionality
@@ -111,9 +118,11 @@ Any contributions you make are greatly appreciated. You can contribute to this p
 Please note that this project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms.
 
 **License**
+
 This project is distributed under the GPLv3 License. See LICENSE for more information.
 
 **Acknowledgment**
+
 This project is based off of kulbhushanchand's MCP4251 project that can be found here: https://github.com/kulbhushanchand/MCP4251.
 I have just extended this work for the 4 Potentiometer variant.
 The open-source tools used in development of this project.
