@@ -2,7 +2,7 @@
 #include <SPI.h>
 
 // Instantiation of object
-MCP4251::MCP4351(uint8_t slaveSelectPin, float pot0ResistanceRmax, float pot0ResistanceRmin, float pot1ResistanceRmax, float pot1ResistanceRmin, float pot2ResistanceRmax, float pot2ResistanceRmin, float pot3ResistanceRmax, float pot3ResistanceRmin)
+MCP4351::MCP4351(uint8_t slaveSelectPin, float pot0ResistanceRmax, float pot0ResistanceRmin, float pot1ResistanceRmax, float pot1ResistanceRmin, float pot2ResistanceRmax, float pot2ResistanceRmin, float pot3ResistanceRmax, float pot3ResistanceRmin)
 {
     this->_slaveSelectPin = slaveSelectPin;
 

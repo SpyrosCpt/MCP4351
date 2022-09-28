@@ -51,7 +51,7 @@ class MCP4351
 {
 public:
   // Constructor
-  MCP4251(uint8_t slaveSelectPin, float pot0ResistanceRmax, float pot0ResistanceRmin, float pot1ResistanceRmax, float pot1ResistanceRmin, float pot2ResistanceRmax, float pot2ResistanceRmin, float pot3ResistanceRmax, float pot3ResistanceRmin);
+  MCP4351(uint8_t slaveSelectPin, float pot0ResistanceRmax, float pot0ResistanceRmin, float pot1ResistanceRmax, float pot1ResistanceRmin, float pot2ResistanceRmax, float pot2ResistanceRmin, float pot3ResistanceRmax, float pot3ResistanceRmin);
   void begin();
   void DigitalPotWiperIncrement(uint8_t potNum);
   void DigitalPotWiperDecrement(uint8_t potNum);
