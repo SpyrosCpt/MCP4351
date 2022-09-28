@@ -12,7 +12,7 @@ If you would like to add some new functionality/features to the project, feel fr
 5. Open a Pull Request
 
 - **Review code**  
-You can review the source code at [GitHub repository](https://github.com/c/MCP4251). Your expert scrutiny may give us directions for any code optimization. You can propose your changes via [GitHub issue](https://github.com/SpyrosCPT/MCP4351/issues).
+You can review the source code at [GitHub repository](https://github.com/SpyrosCPT/MCP4251). Your expert scrutiny may give us directions for any code optimization. You can propose your changes via [GitHub issue](https://github.com/SpyrosCPT/MCP4351/issues).
 
 - **Raise issues about bugs/features/doubts**  
 In case you found any bugs, want any new feature, or have any questions regarding the project, feel free to file a [GitHub issue](https://github.com/SpyrosCPT/MCP4351/issues) for the same. 
